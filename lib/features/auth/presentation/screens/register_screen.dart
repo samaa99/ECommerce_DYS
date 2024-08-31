@@ -1,4 +1,5 @@
 import 'package:e_commerce_dys/core/helpers/extenstions.dart';
+import 'package:e_commerce_dys/core/routing/routes.dart';
 import 'package:e_commerce_dys/core/utils/colors.dart';
 import 'package:e_commerce_dys/core/utils/constants_sizes.dart';
 import 'package:e_commerce_dys/core/utils/text_styles.dart';
@@ -54,7 +55,7 @@ class RegisterScreen extends StatelessWidget {
                     onChanged: (value) {},
                   ),
                   SizedBox(height: 10.h),
-                  TextAndForwardArrowButton(text: alreadyHaveAnAccountTextKey, onTap: () => context.push(const LoginScreen()),),
+                  TextAndForwardArrowButton(text: alreadyHaveAnAccountTextKey, onTap: () => context.pushNamed(AppRoutes.loginScreenRoute)),
                   SizedBox(height: 40.h,),
                   TitledButton(title: logInTextKey.toUpperCase(), onTap: (){}),
                 ],
