@@ -1,0 +1,12 @@
+String signUpTextKey                     = "Sign Up";
+String logInTextKey                      = "LogIn";
+String nameTextKey                       = "Name";
+String emailTextKey                      = "Email";
+String passwordTextKey                   = "Password";
+String alreadyHaveAnAccountTextKey       = "Already have an account?";
+String orSignupWithSocialAccountTextKey  = "Or sign up with social account";
+String orLogInWithSocialAccountTextKey   = "Or login with social account";
+String forgetYourPasswordTextKey         = "Forgot your password?";
+String forgetPasswordTextKey             = "Forgot password";
+String sendTextKey                       = "Send";
+String pleaseEnterYourEmailTextKey       = "Please, enter your email address. You will receive a link to create a new password via email.";
